@@ -1,5 +1,7 @@
 <script>
-  import Argument from '../../components/argument.svelte';
+  import { ArgumentType } from '$src/classes/ArgumentType';
+
+  import Argument from '$src/components/argument.svelte';
 </script>
 
 <div class="py-12">
@@ -8,7 +10,7 @@
     <h1 class="text-3xl mt-2 font-semibold">Should the Dummy look nice?</h1>
   </div>
 
-  <div class="flex bg-gray-100 rounded-3xl">
-    <Argument />
+  <div class="flex bg-gray-100 rounded-3xl mt-8">
+    <Argument type={ArgumentType.Pro} />
   </div>
 </div>

@@ -1,3 +1,8 @@
+<script lang="ts">
+  import { ArgumentType } from '../classes/ArgumentType';
+  export var type: ArgumentType;
+</script>
+
 <div class="mt-4">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +19,11 @@
     />
   </svg>
 
-  <div class="p-4 m-4 border-2 border-green-200 bg-green-100 rounded-lg">
-    <p>If the dummy looks nice, everything should look nice!</p>
+  <div class="p-4 m-4 border-2 border-green-200 bg-green-100 rounded-lg w-96">
+    <details>
+      <summary>Nice looking is better!</summary>
+      <p>If the dummy looks nice, everything should look nice!</p>
+    </details>
   </div>
+  <p>{type}</p>
 </div>
