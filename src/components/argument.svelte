@@ -5,11 +5,11 @@
 
   export var type: ArgumentType;
   var color: string;
-  // if (type == ArgumentType.Pro) {
-  //   color = 'green';
-  // } else {
-  //   color = 'red';
-  // }
+  if (type == ArgumentType.Pro) {
+    color = 'green';
+  } else {
+    color = 'red';
+  }
 </script>
 
 <div class="mt-4">
