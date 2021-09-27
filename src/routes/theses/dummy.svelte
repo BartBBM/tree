@@ -12,5 +12,6 @@
 
   <div class="flex bg-gray-100 rounded-3xl mt-8">
     <Argument type={ArgumentType.Pro} />
+    <Argument type={ArgumentType.Contra} />
   </div>
 </div>
