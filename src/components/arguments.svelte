@@ -19,7 +19,7 @@
     <Negative />
   {/if}
 
-  <div class="p-4 m-4 border-2 border-{color}-200 bg-{color}-100 rounded-lg w-96">
+  <div class="p-4 m-4 border-2 rounded-lg w-96 border-{color}-200 bg-{color}-100">
     <details>
       <summary class="text-lg">Nice looking is better!</summary>
       <p>If the dummy looks nice, everything should look nice!</p>
@@ -34,9 +34,3 @@
     </details>
   </div>
 </div>
-
-<!-- <style>
-  details > summary::marker {
-    background: url('$src/svgs/pro.svelte');
-  }
-</style> -->

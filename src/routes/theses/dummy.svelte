@@ -1,7 +1,7 @@
 <script>
   import { ArgumentType } from '$src/classes/ArgumentType';
 
-  import Argument from '$src/components/argument.svelte';
+  import Arguments from '$src/components/arguments.svelte';
 </script>
 
 <div class="py-12">
@@ -11,7 +11,7 @@
   </div>
 
   <div class="flex justify-evenly bg-gray-100 rounded-3xl mt-8">
-    <Argument type={ArgumentType.Pro} />
-    <Argument type={ArgumentType.Contra} />
+    <Arguments type={ArgumentType.Pro} />
+    <Arguments type={ArgumentType.Contra} />
   </div>
 </div>
