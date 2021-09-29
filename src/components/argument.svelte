@@ -21,11 +21,11 @@
 
   <div class="p-4 m-4 border-2 border-{color}-200 bg-{color}-100 rounded-lg w-96">
     <details>
-      <summary>Nice looking is better!</summary>
+      <summary class="text-lg">Nice looking is better!</summary>
       <p>If the dummy looks nice, everything should look nice!</p>
     </details>
     <details>
-      <summary>Second Argument"</summary>
+      <summary>Second Argument</summary>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quidem aspernatur sit quaerat
         error ea praesentium doloremque similique fugit placeat. Reprehenderit, tempora? Molestiae
@@ -33,8 +33,10 @@
       </p>
     </details>
   </div>
-  <p>{type}</p>
-
-  <div class="border-2 border-green-200 bg-green-100">asdf</div>
-  <div class="border-2 border-red-200 bg-red-100">asdf</div>
 </div>
+
+<!-- <style>
+  details > summary::marker {
+    background: url('$src/svgs/pro.svelte');
+  }
+</style> -->
