@@ -4,11 +4,14 @@
   import { ArgumentType } from '../classes/ArgumentType';
 
   export var type: ArgumentType;
-  var color: string;
+  var borderColor: string = '';
+  var bgColor: string = '';
   if (type == ArgumentType.Pro) {
-    color = 'green';
+    borderColor = 'border-green-200';
+    bgColor = 'bg-green-100';
   } else {
-    color = 'red';
+    borderColor = 'border-red-200';
+    bgColor = 'bg-red-100';
   }
 </script>
 
@@ -19,7 +22,7 @@
     <Negative />
   {/if}
 
-  <div class="p-4 m-4 border-2 rounded-lg w-96 border-{color}-200 bg-{color}-100">
+  <div class="p-4 m-4 border-2 rounded-lg w-96 {borderColor} {bgColor}">
     <details>
       <summary class="text-lg">Nice looking is better!</summary>
       <p>If the dummy looks nice, everything should look nice!</p>
